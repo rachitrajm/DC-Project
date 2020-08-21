@@ -18,6 +18,8 @@
 
 ### The second step of QUANTIZATION has been implemented here.
 
+This program takes number of samples as the input, then the samples' values. The result displays the following things in a tabular format: Sample Value, Normalized PAM Value, Quantized Value, Normalized Error, Quantization Code and Encoded Words.
+
 Here, levels has been fixed to 16 i.e. n=16; max and min amplitudes as V(min)=-40 and V(max)=40. This means the sample values lie in -40 to 40.
 
 To try on different data, change values of n, V(max) and V(min) in the code.
